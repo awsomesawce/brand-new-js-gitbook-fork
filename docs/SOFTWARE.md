@@ -7,7 +7,7 @@ A tool similar to cloc, sloccount and tokei. For counting physical the lines of 
 
 ## Written in Rust
 
-- [`bat` (`cat` clone)](https://github.com/sharkdp/bat)
+- [`bat`](https://github.com/sharkdp/bat) (`cat` clone):
 I've been using `bat` for a while and it is the nicest **pager** I have used on the terminal.
 It adds syntax highlighting to the file in question along with piping it to your fave pager (default is `less`)
 
