@@ -17,6 +17,7 @@
   },
   "devDependencies": {
     "@asciidoctor/cli": "^3.5.0",
+    "esbuild": "^0.14.25",
     "honkit": "^3.7.1",
     "ts-node": "^10.7.0",
     "typescript": "^4.6.2"
