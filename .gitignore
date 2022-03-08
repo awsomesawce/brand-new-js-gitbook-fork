@@ -1,6 +1,7 @@
 # Carl's brand-new-js edits
 \_book/
 output.html
+*.js.map
 
 
 # Created by https://www.toptal.com/developers/gitignore/api/node
