@@ -12,4 +12,5 @@ I've been using `bat` for a while and it is the nicest **pager** I have used on 
 It adds syntax highlighting to the file in question along with piping it to your fave pager (default is `less`)
 
 - [`dust`]( https://github.com/bootandy/dust)
-- [`dutree`]
+- [`dutree`](https://github.com/nachoparker/dutree)
+Both of these executables are reimplementations of the classic unix tool `du`.

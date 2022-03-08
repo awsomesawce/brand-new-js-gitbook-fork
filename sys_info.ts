@@ -1,7 +1,7 @@
 #!/usr/bin/env ts-node
 // ts-node is som
 
-import fs from 'fs';
+import fs from 'node:fs/promises';
 import os from 'os';
 import { normalize, parse } from 'path';
 
@@ -14,5 +14,10 @@ function demo (a: string, b: number) {
     })
 }
 
+const demoReadFile = async (file: string) => {
+    const data = (await fs.readFile(file)).toLocaleString()
+    return JSON.parse(data);
+}
 
-console.log(demo('hi', 3));
+const value = demoReadFile("myFile2.txt");
+log(value);
